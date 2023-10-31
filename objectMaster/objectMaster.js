@@ -30,8 +30,8 @@
     
     // 2.
     // Return an array of just the id's
-    // const pkmnIds = pokémon.map(p => p.id);
-    // console.log(pkmnIds)
+    const pkmnIds = pokémon.map(p => p.id);
+    console.log(pkmnIds)
     
     // an array of pokémon objects where the id is evenly divisible by 3
     // const idDivByThree = pokémon.filter(p => p.id % 3 == 0)
