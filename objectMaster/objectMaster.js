@@ -39,9 +39,10 @@
     // const idDivByThree = pokémon.filter(p => p.id % 3 == 0)
     console.log(idDivByThree)
     
+    //2.
     // an array of pokémon objects that are "fire" type
-    // const fireTypes = pokémon.filter(p => p.types.includes('fire'))
-    // console.log(fireTypes)
+    const fireTypes = pokémon.filter(p => p.types.includes('fire'))
+    console.log(fireTypes)
     
     // an array of pokémon objects that have more than one type
     // const typeLength = pokémon.filter(p => p.types.length > 1)
