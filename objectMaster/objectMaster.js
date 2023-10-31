@@ -49,9 +49,10 @@
     const typeLength = pokémon.filter(p => p.types.length > 1)
     console.log(typeLength)
     
+    // 4.
     // an array with just the names of the pokémon
-    // const names = pokémon.map(p => p.name)
-    // console.log(names)
+    const names = pokémon.map(p => p.name)
+    console.log(names)
     
     // an array with just the names of pokémon with an id greater than 99
     // const nameOverId99 = pokémon.filter(p => p.id > 99).map(p => p.name)
