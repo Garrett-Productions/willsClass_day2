@@ -44,9 +44,10 @@
     const fireTypes = pokémon.filter(p => p.types.includes('fire'))
     console.log(fireTypes)
     
+    //3. 
     // an array of pokémon objects that have more than one type
-    // const typeLength = pokémon.filter(p => p.types.length > 1)
-    // console.log(typeLength)
+    const typeLength = pokémon.filter(p => p.types.length > 1)
+    console.log(typeLength)
     
     // an array with just the names of the pokémon
     // const names = pokémon.map(p => p.name)
