@@ -69,7 +69,8 @@
     const flyingPokemon = pokémon.filter(p => p.types.includes('flying'))
     console.log(flyingPokemon)
     
+    // 8.
     // a count of the number of pokémon that are "normal" type
-    // const normalPokemon = pokémon.filter(p => p.types.includes('normal'))
-    // console.log(normalPokemon)
+    const normalPokemon = pokémon.filter(p => p.types.includes('normal'))
+    console.log(normalPokemon)
 
