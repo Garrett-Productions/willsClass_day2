@@ -33,9 +33,11 @@
     const pkmnIds = pokémon.map(p => p.id);
     console.log(pkmnIds)
     
+    // 1. 
     // an array of pokémon objects where the id is evenly divisible by 3
+    const idDivByThree = pokémon.filter(p => p.id % 3 == 0)
     // const idDivByThree = pokémon.filter(p => p.id % 3 == 0)
-    // console.log(idDivByThree)
+    console.log(idDivByThree)
     
     // an array of pokémon objects that are "fire" type
     // const fireTypes = pokémon.filter(p => p.types.includes('fire'))
