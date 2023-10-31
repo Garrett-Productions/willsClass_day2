@@ -1,1 +1,1 @@
-SHE generatice AI, searchlabs
+SHE generative AI, searchlabs
