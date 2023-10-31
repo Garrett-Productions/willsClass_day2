@@ -61,12 +61,13 @@
     
     //6 .
     // an array with just the names of the pokémon whose only type is poison
-    // const poisonPokemon = pokémon.filter(p => p.types.includes('poison')).filter(p => p.types.length < 2)
-    // console.log(poisonPokemon)
+    const poisonPokemon = pokémon.filter(p => p.types.includes('poison')).filter(p => p.types.length < 2)
+    console.log(poisonPokemon)
     
+    // 7.
     // an array containing just the first type of all the pokémon whose second type is "flying"
-    // const flyingPokemon = pokémon.filter(p => p.types.includes('flying'))
-    // console.log(flyingPokemon)
+    const flyingPokemon = pokémon.filter(p => p.types.includes('flying'))
+    console.log(flyingPokemon)
     
     // a count of the number of pokémon that are "normal" type
     // const normalPokemon = pokémon.filter(p => p.types.includes('normal'))
