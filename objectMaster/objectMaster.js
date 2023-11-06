@@ -74,3 +74,13 @@
     const normalPokemon = pokémon.filter(p => p.types.includes('normal'))
     console.log(normalPokemon)
 
+
+
+// const vacations = {
+//                     "id": 1, 
+//                     "place": "Sayulita",
+//                     "country": "Mexico"
+//                 };
+
+// const vacationList = vacations.map();
+// console.log(vacationList)
