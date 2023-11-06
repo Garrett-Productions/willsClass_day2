@@ -27,3 +27,6 @@ const pokémon = Object.freeze([
 
 // For example we could create a list of pokémon that have names that start with the letter "B"
 // by using the following code.
+
+const bNames = pokémon.filter(p => p.name[0]==="B")
+console.log(bNames)
