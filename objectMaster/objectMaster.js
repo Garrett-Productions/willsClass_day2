@@ -86,5 +86,5 @@
 // console.log(vacationList)
 
 const groceries = ["pearl onions", "cremini mushrooms", "thyme"];
-const groceryList = groceries.map( item => `<li>${item}</li>` );
+const groceryList = groceries.map(item => item );
 console.log(groceryList)

@@ -2,5 +2,6 @@ Map will make a copy of an array and apply our own twist to it... using a callba
 
 Example of Map
 
-const vacations = ["sayulita", "portland", "orange county"];
-const vacationList = vacations.map( oneVacation => `<li>${oneVacation}</li>`);
+
+Steps
+1. Im gonna have th assignemnt on the notepad of my phone for refernce for each question, behind my laptop
