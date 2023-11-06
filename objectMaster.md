@@ -4,4 +4,4 @@ Example of Map
 
 
 Steps
-1. Im gonna have th assignemnt on the notepad of my phone for refernce for each question, behind my laptop
+1. Im gonna have the assignemnt on the notepad of my phone for refernce for each question, behind my laptop
