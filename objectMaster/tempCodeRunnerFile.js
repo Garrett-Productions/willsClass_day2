@@ -1,3 +1,3 @@
-const vacations = {"id": 1, "place": "Sayulita", "country": "Mexico"};
-const vacationList = vacations.map(eachVacation => eachVacation);
-console.log(vacationList)
+const groceries = ["pearl onions", "cremini mushrooms", "thyme"];
+const groceryList = groceries.map( item => `<li>${item}</li>` );
+console.log(groceryList)
