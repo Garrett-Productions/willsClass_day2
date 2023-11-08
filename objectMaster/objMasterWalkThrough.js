@@ -30,3 +30,4 @@ const pokémon = Object.freeze([
 
 const bNames = pokémon.filter(p => p.name[0]==="B")
 console.log(bNames)
+
