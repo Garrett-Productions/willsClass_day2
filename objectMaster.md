@@ -15,3 +15,4 @@ Built ins
 3. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 
 
+We can chain map and filter together
